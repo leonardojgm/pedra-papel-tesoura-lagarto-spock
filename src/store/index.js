@@ -1,14 +1,11 @@
 import { createStore } from 'vuex';
+import createPersistedState from 'vuex-persistedstate';
+import modules from './modules';
+import persistenceConfig from './persistence.config';
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  },
+  modules,
+  plugins: [
+    createPersistedState(persistenceConfig),
+  ]
 });
