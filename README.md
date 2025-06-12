@@ -1,5 +1,7 @@
 # pedra-papel-tesoura-lagarto-spock
 
+Jogo de Pedra, Papel e Tesoura, onde introduzirei além de conceitos chaves de Vue.js, boas práticas de desenvolvimento e duas importantes bibliotecas: Vue Router para tratar o roteamento de páginas e Vuex para gerenciamento do estado da aplicação, também armazenaremos dados no localStorage do browser e toda aplicação será responsiva utilizando SASS, Flexbox e CSS Grid.
+
 ## Project setup
 ```
 npm install
