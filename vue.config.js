@@ -3,7 +3,6 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // https://cli.vuejs.org/config
 module.exports = {
-  publicPath: 'pedra-papel-tesoura-lagarto-spock',
 	lintOnSave: false,
 
 	chainWebpack: (config) => {
