@@ -29,7 +29,6 @@
   /* eslint-disable global-require */
   /* eslint-disable import/no-dynamic-reqquire */
 
-  import VueTypes from 'vue-types';
   import { mapMutations } from 'vuex';
   import { SET_SCORE } from '@/store/modules/score/mutations';
   import Token from '@/components/Token/Token.vue';
@@ -41,7 +40,7 @@
       Token,
     },
     props: {
-      playerToken: VueTypes.string.isRequired,
+      playerToken: String,
     },
     data() {
       return {

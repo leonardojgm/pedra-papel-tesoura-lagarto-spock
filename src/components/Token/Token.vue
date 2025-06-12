@@ -5,13 +5,11 @@
 </template>
 
 <script>
-  import VueTypes from 'vue-types';
-
   export default {
     name: 'Token',
     props: {
-      name: VueTypes.string.isRequired,
-      src: VueTypes.string.isRequired,
+      name: String,
+      src: String,
     },
   };
 </script>
